@@ -64,3 +64,38 @@ p {
   color: var(--text-muted, #7a7a96);
 }
 
+/* Padding and more */
+
+header{
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section{
+    background-color: var(--bg-card);
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 1.5rem 2.5rem;
+    border-style: solid;
+    border-color: var(--border);
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+main{
+    margin: 0 auto;
+    padding: 2rem 0 4rem 0;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+}
