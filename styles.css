@@ -1,0 +1,23 @@
+/* colors go here */
+
+.highlight { color: cyan; }
+
+.rgb-example { color: rgb(0, 194, 255); }
+
+.rgba-example { background-color: rgba(0, 194, 255, 0.1); }
+
+.hex-example { color: #00c2ff; }
+
+
+.hsl-example { color: hsl(197, 100%, 50%); }
+
+.hsla-example { background-color: hsla(197, 100%, 50%, 0.15); }
+
+
+.wide-gamut { color: color(display-p3 0 0.76 1); }
+
+
+.color-mix-example { color: color-mix(in srgb, #00c2ff 60%, white); }
+
+
+.variable-example { color: var(--highlight-color, cyan); }
