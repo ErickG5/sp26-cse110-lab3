@@ -99,3 +99,65 @@ hr {
     border-top: 1px solid var(--border);
     margin: 1.5rem 0;
 }
+
+/* Text and such */
+
+main{
+    max-width: 860px;
+    min-width: 280px;
+    width: 90%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+nav h2 {
+  display: none;
+}
+
+img {
+  display: block;
+}
+
+header {
+  position: relative;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  position: static;
+}
+
+a:hover {
+  color: color(display-p3 0 0.76 1);
+}
+
+a:active {
+  opacity: 0.7;
+}
