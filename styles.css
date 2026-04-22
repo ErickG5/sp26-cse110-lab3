@@ -423,3 +423,23 @@ header h1 {
     color: var(--accent);
   }
 }
+
+
+span {
+  display: inline;
+}
+
+
+body.body {
+  min-height: 100vh;
+}
+
+
+::selection {
+  background-color: cyan;
+}
+
+
+footer {
+  padding-bottom: 0.5cm;
+}
