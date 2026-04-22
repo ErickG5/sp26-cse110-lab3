@@ -96,8 +96,10 @@ main{
 
 hr {
     border: none;
-    border-top: 1px solid var(--border);
+    border-top: 1pt solid var(--border);
     margin: 1.5rem 0;
+    width: 100%;
+    min-width: 200px;
 }
 
 /* Text and such */
@@ -108,11 +110,12 @@ main{
     width: 90%;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  text-align: left;
+hr {
+    border: none;
+    border-top: 1pt solid var(--border);
+    margin: 1.5rem 0;
+    width: 100%;
+    min-width: 200px;
 }
 
 h2 {
